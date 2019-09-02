@@ -63,3 +63,18 @@ console.log(products.length);
 products.forEach(el => console.log(el)); //-стрілочна функція яка не виводить undefined
 
 
+
+function padIt(str,n){
+ while(n > 0){
+ if( n % 2 == 0){
+ str= str +'*';
+ }else {
+ str= '*' + str;
+ }
+  n--;
+ }
+ return str;
+ }
+
+//  split - робить масив
+// ..ю розкладає масив по елементах
